@@ -81,9 +81,9 @@ run_analysis <- function(){
   setnames(TestTrainMean, 3:ncol(TestTrainMean), paste0("M", data.F.desc[idx]));
   print(head(TestTrainMean));
   print(dim(TestTrainMean)); 
-  print(dim(TestTrain));
+  print(TestTrainMean);
 
-  write.table(TestTrainMean, paste0(path.data, "TestTrainMean.txt"), sep="\t", row.names=FALSE);
+  # write.table(TestTrainMean, paste0(path.data, "TestTrainMean.txt"), sep="\t", row.names=FALSE);
 
 
 }
