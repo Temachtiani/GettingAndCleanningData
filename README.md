@@ -22,7 +22,7 @@ Preparing initial dataset
 * Merge Train and Test datasets in one dataset named TestTrain.
 * Calculate grouped mean of variables according to Activity and Subject category, which is names TestTrainMean. This is the tidy final dataset.
 
-Criterions used to assign descriptive names of activities and variables adn construction of final tidy dataset.
+Criterions used to assign descriptive names of activities and variables and construction of final tidy dataset.
 -------------------------------------------------------
 * As activity names given in activity_labels.txt file are self-descroptive, the file was loaded as data.fame to R script and asigned in a new column named DESC in correspondance to ACT column with key for activities.
 * Variables names ara also self-descripitve, but it contains regular expresions caracters in features.txt. In order to assign valid names, characters like "-" and "()" were removed and the remain is assigned as variables names.
