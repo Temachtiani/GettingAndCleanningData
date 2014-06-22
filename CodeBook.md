@@ -53,6 +53,11 @@ The variables estimated form signals are self-desctiptive in name and are added 
 * bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 * angle(): Angle between to vectors.
 
+Units
+
+train/Inertial Signals/body_gyro_x_train.txt: The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
+
 The dataset is cncentrated on the following files:
 ---------------------------------------
 * 'features.txt': List of all features.
