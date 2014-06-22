@@ -61,13 +61,3 @@ The dataset is cncentrated on the following files:
 * 'train/y_train.txt': Training labels.
 * 'test/X_test.txt': Test set.
 * 'test/y_test.txt': Test labels.
-
-
-Criterions used to assign descriptive names of activities and variables adn construction of final tidy dataset.
--------------------------------------------------------
-* As activity names given in activity_labels.txt file are self-descroptive, the file was loaded as data.fame to R script and asigned in a new column named DESC in correspondance to ACT column with key for activities.
-* Variables names ara also self-descripitve, but it contains regular expresions caracters in features.txt. In order to assign valid names, characters like "-" and "()" were removed and the remain is assigned as variables names.
-* Performing a search on variable names, the comuns or data selected corresponds to all that include the string "mean()" or "std()".
-* Variables with string "meanFreq()" are not included on tidy data set.
-* The average for all filter variables were calculated grouping features activity-subject categories.
-* The source dataset include a variable that identifies types of data (TRAIN or TEST). This categories are not used to group to calculate means of columns.
